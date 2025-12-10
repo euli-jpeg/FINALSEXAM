@@ -80,9 +80,7 @@
               <input type="radio" id="mail" name="contact_method" value="mail">
               <label for="mail">Other</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <div class="dropdown">
+                    <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="ture">
                 Choose a Service
             </button>
@@ -93,6 +91,15 @@
             <li><button class="dropdown-item" type="button">Cloud Services</button></li>
             <li><button class="dropdown-item" type="button">AI Solutions</button></li>
         </ul>
+                        <div class="mb-3">
+                <label for="exampleInputMessage" class="form-label">Message</label>
+                <textarea class="form-control" id="exampleInputMessage" name="message" rows="5"
+                    placeholder="Enter your message here..."></textarea>
+                <div id="messageHelp" class="form-text">Please share your message or inquiry with us.</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
 
 
 
@@ -109,5 +116,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
 </body>
+
 
 </html>
